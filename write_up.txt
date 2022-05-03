@@ -1,0 +1,3 @@
+*For unscaled data, the Random Forest model performed better than the logistic regression (0.62 score vs 0.51). 
+    -Standard scaling changed this pattern. The scaled logistic regression performed much better (score of 0.76) while the Random Forest model stayed about the same. 
+        **an area for further study would be to examine why. Standard scaling may help linear regressions be more normally distributed and better adhere to Gauss-Markov.
